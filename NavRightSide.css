@@ -1,0 +1,26 @@
+
+
+.right .image {
+    width: 90px;
+    height: 90px;
+
+}
+
+
+.rihgt .image img {
+
+    background-size: contain;
+    background-size: 150%;
+    /* Zoom effect */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating */
+    transition: 650ms ease;
+}
+
+.right .image img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px red;
+}
+

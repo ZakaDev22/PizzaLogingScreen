@@ -1,0 +1,73 @@
+
+/* Left Left Side */
+.left .profile {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.left .profile .image {
+    width: 90px;
+    height: 90px;
+
+}
+
+
+.left .profile .image img {
+
+    width: inherit;
+    height: inherit;
+    background-size: contain;
+    background-size: 100%;
+    /* Zoom effect */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Prevent repeating */
+    transition: 650ms ease;
+}
+
+.left .profile .image img:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px red;
+}
+
+
+.left .profile h2 {
+
+    font-weight: 800;
+    text-shadow: 5px 5px 5px red;
+    transition: 650ms ease;
+}
+
+.left .profile h2:hover {
+    color: aqua;
+    font-size: 40px;
+    text-shadow: -5px -5px -5px red;
+}
+
+/* Left Right Side --> List Items*/
+
+.left ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.left ul li a {
+
+    font-size: 15px;
+    text-decoration: none;
+    transition: 550ms ease;
+}
+
+.left ul li a:hover {
+
+    color: yellow;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 5px 5px 5px #58c035;
+}
