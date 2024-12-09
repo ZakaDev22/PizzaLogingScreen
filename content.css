@@ -44,4 +44,27 @@ form h2 {
     box-shadow: 3px 3px 5px #ffffff;
 }
 
+.form-main-data , .form-main-data .info {
 
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form-main-data , .form-main-data .info input {
+
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-main-data .info #text {
+
+    outline: none;
+    border: none;
+
+}
+
+.form-main-data .Loging-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
