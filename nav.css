@@ -5,13 +5,22 @@ nav {
     border-radius: 0px 0px 50px 50px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.container nav .left,
-.container nav .right {
+.container nav .left , .right{
+
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.container nav .left {
     justify-content: start;
     align-items: center;
-    gap: 20px;
+}
+
+.container nav .right {
+    justify-content: space-evenly;
+    align-items: center;
 }
