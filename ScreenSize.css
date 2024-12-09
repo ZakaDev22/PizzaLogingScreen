@@ -1,0 +1,23 @@
+
+
+
+@media  (max-width: 480px) {
+   
+    .container nav {
+        
+        background-color: rgba(255, 0, 0, 0.187);
+            width: 100%;
+            height: 40%;
+            overflow: auto;
+    }
+
+        .content {
+    
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+    
+        }
+}

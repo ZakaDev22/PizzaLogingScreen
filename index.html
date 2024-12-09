@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="NavLeftSide.css">
     <link rel="stylesheet" href="NavRightSide.css">
     <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="ScreenSize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
@@ -60,42 +61,46 @@
         </nav>
 
         <div class="content">
-        
+
             <form>
                 <h2>Login Screen</h2>
                 <hr>
                 <div class="form-main-data">
                     <div class="info">
-                    
-                        <div id="text">
+
+                        <div class="Center-Data">
                             <i class="fa-solid fa-user"></i>
-                            <input type="text" placeholder="User name">
+                            <input id="text" type="text" placeholder="User name">
                         </div>
-                        <div id="text">
+                        <div class="Center-Data">
                             <i class="fa-solid fa-lock"></i>
-                            <input type="password" placeholder="Password">
+                            <input id="text" type="password" placeholder="Password">
                         </div>
-                    
-                        <div>
+
+                        <div class="Center-Data">
                             <i class="fa-solid fa-check"></i>
                             <input id="RemeberMe" type="checkbox" name="RemeberMe" id="">
                             <label for="RemeberMe">Remeber Me</label>
                         </div>
                     </div>
-                    
+
                     <div class="Loging-box">
-                            <button id="loging" type="submit">Login</button>
+                        <button id="loging" type="submit">Login</button>
                     </div>
                 </div>
                 <hr>
                 <div class="create-new">
-                       <div>
-                        <label for="">DOnt Have An Account</label>
-                       </div>
+                    <div>
+                        <label for="register-link">Dont Have An Account ?</label>
+                        <a id="register-link" href="#">Register</a>
+                    </div>
+                    <div>
+                        <a href="#">Forgot Your Password ?</a>
+                    </div>
                 </div>
             </form>
         </div>
-        </body>
-    </div>
+</body>
+</div>
 
 </html>

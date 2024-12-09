@@ -22,6 +22,20 @@ form h2 {
     margin: 10px;
 }
 
+.Center-Data {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form-main-data .info .Center-Data i {
+
+    font-size: 25px;
+    box-shadow: -2px 2px 2px #0000007b;
+}
+
 .content form #loging {
 
     width: 150px;
@@ -58,13 +72,49 @@ form h2 {
 
 .form-main-data .info #text {
 
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
     outline: none;
     border: none;
-
+    background-image: linear-gradient(to right,#123,#ebeaea);
+    border-radius: 10px;
 }
 
 .form-main-data .Loging-box {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+}
+
+.create-new {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-new a {
+
+    color: blue;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: underline;
+    transition:  650ms ease;
+    text-shadow: 2px 2px 5px #fbfbfb;
+}
+.create-new a:hover {
+
+    color: #4f4fef;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+::placeholder{
+    color: black;
+     font-weight: 800;
+     font-size: 20px;
 }
